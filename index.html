@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elly tesuda</title>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Dancing Script", cursive;
+            text-align: center;
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+    
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at top, #ff9dd7, #ff5fb8, #ff2c9e);
+            z-index: -2;
+            animation: pulse 6s infinite alternate ease-in-out;
+        }
+        
+        @keyframes floatUp {
+            0% { transform: translateY(100vh) scale(0.7); opacity: 1; }
+            100% { transform: translateY(-10vh) scale(1.2); opacity: 0; }
+        }
+
+        @keyframes pulse {
+            0% { filter: brightness(1); }
+            100% { filter: brightness(1.25); }
+        }
+
+        h1 {
+            margin-top: 60px;
+            font-size: 55px;
+            text-shadow: 0 0 12px #ffb6e6;
+            animation: fade 2s;
+        }
+
+        p {
+            font-size: 26px;
+            margin: 20px auto;
+            width: 80%;
+            text-shadow: 0 0 7px #ffd3ec;
+            animation: fade 3s;
+        }
+
+    .foto {
+    width:350px;
+    border-radius: 20px;
+    border: 3px solid #ff8cd9;
+    box-shadow: 0 0 20px #ff8cd9;
+    margin: 15px auto;
+    display: block;
+    animation: fade 3s;
+        }
+
+        .card {
+            background: #ffffff20;
+            padding: 25px;
+            border-radius: 25px;
+            width: 100%;
+            max-width: 650px;
+            margin: 30px auto;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 0 20px #ff88d6;
+            animation: fade 3s;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            background: #ff5cb8;
+            color: white;
+            font-size: 24px;
+            font-family: "Dancing Script", cursive;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: 0.3s;
+            box-shadow: 0 0 10px #ff9bd8;
+        }
+
+        button:hover {
+            transform: scale(1.07);
+            background: #ff3ea9;
+        }
+
+        @keyframes fade {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+     <div class="background-text">te amo</div>
+
+   
+    <div class="bg"></div>
+
+    <div class="card">
+
+        <h1>Feliz 4 Meses, meu amor</h1>
+
+     <img class="foto" src="https://i.imgur.com/oF3BdVf.png alt="foto">
+    
+        <p>
+         Nada mais faz sentido longe de ti, e você é minha metadinha. Eu não consigo nem lembrar o que era viver uma vida sem você, meu momô, que me deixa tão segurinho, tão feliz e motivado.
+         Eu vou sempre lutar pelo nosso amor e buscar ser o melhor namorado, porque você merece muito, muito mesmo.
+         E eu não quero ser só seu namorado, quero ser a pai dos nossos filhinhos e filhinhas. 
+         KKKKKKKKKKKKKKKKKKKKK
+        </p>
+        
+        <button onclick="alert('Amo vc minha dislexinha ')">Clicaaaaaaaaaa aquuuiiiiiiiiii</button>
+    </div>
+
+</body>
+</html>
